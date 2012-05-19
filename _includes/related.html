@@ -1,0 +1,5 @@
+<h2>Related</h2>
+{% for post in site.related_posts %}
+<h3>{{ post.title }}</h3>
+{{ post.excerpt }} 
+{% endfor %}
