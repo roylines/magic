@@ -1,5 +1,8 @@
 <h2>Musings</h2>
-{% for post in site.posts %}
-<h3>{{ post.title }}</h3>
-{{ post.excerpt }} 
+<dl>
+{% for post in site.posts limit:10 %}
+<dt><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></dt>
+<dd>{{ post.excerpt }}</dd>
 {% endfor %}
+</dl>
+
