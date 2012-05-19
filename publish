@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo 'publishing to s3...'
+s3cmd sync --reduced-redundancy --delete-removed _site/ s3://sandersthegreat.co.uk
