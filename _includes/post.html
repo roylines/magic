@@ -1,4 +1,6 @@
 <h2>{{ page.title }}</h2>
+{% if page.graphic %}
 <img class="graphic" src="{{ page.graphic }}" title="{{ page.title }}" alt="{{ page.title }}" />
+{% endif %}
 {{ content }}
 <hr/>

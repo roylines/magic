@@ -10,7 +10,7 @@ body > div.well {
   background: white;
 }
 
-h1 {
+h1, #home {
   color: #900;
   text-transform: uppercase;
   text-transform: capitalize;
@@ -42,6 +42,6 @@ img.graphic {
     margin: 4px; 
 }
 
-a {
+a, a:hover {
   color:black;
 }
