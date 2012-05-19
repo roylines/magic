@@ -1,6 +1,6 @@
 <h2>{{ page.title }}</h2>
-{% if page.graphic %}
-<img class="graphic" src="{{ page.graphic }}" title="{{ page.title }}" alt="{{ page.title }}" />
-{% endif %}
+{% if page.graphic-link %}<a href="{{ page.graphic-link }}">{% endif %}
+{% if page.graphic %}<img class="graphic" src="{{ page.graphic }}" title="{{ page.title }}" alt="{{ page.title }}" />{% endif %}
+{% if page.graphic-link %}</a>{% endif %}
 {{ content }}
 <hr/>

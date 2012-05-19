@@ -1,7 +1,8 @@
-<h2>Related</h2>
+<h2>Archives</h2>
 <dl>
-{% for post in site.related_posts limit:10 %}
+{% for post in site.posts %}
 <dt><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></dt>
 <dd>{{ post.excerpt }}</dd>
 {% endfor %}
 </dl>
+
