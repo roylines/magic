@@ -10,7 +10,7 @@ You will join me in the Wonder Show of the Universe for I am Sanders the Great:
 mentalist, magician, mindreader, wizard of the east, wonder of wonders. 
 I will entertain you with the latest news from the World of magic, 
 enlighten you with my words on magical literature and bedazzle you with intriguing 
-glimpses into my vault of magical curiosities.
+glimpses into my [vault of magical curiosities]({{ site.url }}/vault.html).
 
 Whatever your reason for being here, I am certain you will find something to enjoy. Now make haste for there is so much for me to share with you.
 
