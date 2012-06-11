@@ -1,5 +1,13 @@
+(function($) {
+  $.randomize = function(arr) {  
+    for(var j, x, i = arr.length; i; j = parseInt(Math.random() * i), x = arr[--i], arr[i] = arr[j], arr[j] = x);
+    return arr;     
+  };
+})(jQuery);
+
 $(document).ready(function() {
-  jQuery.each(ads, function() {
+  var randomAds = $.randomize(ads);
+  jQuery.each(randomAds, function() {
   $("#ads").append(
     '\
     <li class="span3">\
