@@ -1,5 +1,5 @@
 permalink: none
 markdown: rdiscount
 pygments: true
-exclude: publish, README.md, .gitignore
+exclude: tools, README.md, .gitignore
 

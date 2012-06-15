@@ -1,0 +1,16 @@
+#!/bin/bash
+
+APIKEY=$1
+KEYWORDS=$2
+CATEGORY=$3
+TRANSFORM=$4
+OUTFILE=$5
+
+URL="https://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsAdvanced&keywords=$KEYWORDS&categoryid=$CATEGORY"
+
+HEADER1="X-EBAY-SOA-SECURITY-APPNAME: $APIKEY"
+HEADER2="X-EBAY-SOA-GLOBAL-ID : EBAY-GB"
+HEADER3="X-EBAY-SOA-SERVICE-VERSION : 1.0.0"
+HEADER4="X-EBAY-SOA-RESPONSE-DATA-FORMAT : XML"
+
+curl --header "$HEADER1" --header "$HEADER2" --header "$HEADER3" --header "$HEADER4" -s $URL | xsltproc $TRANSFORM - > $OUTFILE
