@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: The Vault
+advert: willgoldston
 ---
 You have opened the door into the archives of Sanders the Great. 
 

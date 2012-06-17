@@ -2,6 +2,7 @@
 layout: default
 title: Your Journey Begins
 graphic: ./img/box.jpg
+advert: willgoldston
 ---
 Welcome friend and pull up a chair, I have something interesting to tell you. 
 Whether you have arrived here by chance, or by choice I am pleased you are here.
