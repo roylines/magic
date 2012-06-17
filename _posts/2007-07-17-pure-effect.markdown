@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pure Effect - Direct Mindreading and Magical Artistry
-graphic: http://ecx.images-amazon.com/images/I/51HNiZCYOQL._SL500_AA300_.jpg
+graphic: http://ecx.images-amazon.com/images/I/51-9mifzlWL._SL500_AA300_.jpg
 excerpt: "A series of manuscripts written by Derren Brown in the 1990s"
 category: curios
 advert: pureeffect
